@@ -10,7 +10,6 @@ because the original website is bad
 - finally updated to 2023 standards®
 
 ### to-do:
-- [ ] Move repo to new GitHub account
 - [ ] Continue testing with iframes (Blackboard SUCKS)
 - [ ] Finalize designs
 - [ ] Finish the test pages (homepage and example class)
@@ -18,3 +17,4 @@ because the original website is bad
 - [ ] Remove the old pages
 - [ ] Add in new pages
 - [ ] Yay done!!!!
+- [ ] Move repo to new GitHub account
