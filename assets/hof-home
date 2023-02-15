@@ -3,31 +3,114 @@
   <head>
     <title>HOF</title>
     <link rel="stylesheet" type="text/css" href="homestyles.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Header styles */
+      .header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      /* Logo styles */
+      .logo {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-image: url('your-logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      
+      /* Navigation styles */
+      .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        overflow-x: auto;
+        background-color: #f3f3f3;
+      }
+      
+      .nav a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      .nav a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      /* Sub-navigation styles */
+      .sub-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        overflow-x: auto;
+        background-color: #ccc;
+      }
+      
+      .sub-nav a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      .sub-nav a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      /* Main content styles */
+      .content {
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1></h1>
-<div id="banner">
-  <div id="banner-content">
-    <div id="top-row">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+    <!-- Header -->
+    <div class="header">
+      <div class="logo"></div>
     </div>
-    <div id="bottom-row">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">FAQ</a>
+    
+    <!-- Navigation -->
+    <div class="nav">
+      <a href="#">1960</a>
+      <a href="#">1970</a>
+      <a href="#">1980</a>
+      <a href="#">1990</a>
+      <a href="#">2000</a>
+      <a href="#">2010</a>
+      <a href="#">2020</a>
     </div>
-  </div>
-</div>
-    </header>
-    <main>
-     
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023</p>
-    </footer>
-  </body>
-</html>
+    
+    <!-- Sub-navigation -->
+    <div class="sub-nav">
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+      <a href="#">"x"+1</a>
+    </div>
+    
+    <!-- Main content -->
+    <div class="content">
+
