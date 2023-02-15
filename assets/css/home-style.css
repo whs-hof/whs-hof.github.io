@@ -23,7 +23,7 @@
       }
       
       /* Navigation styles */
-      .nav {
+      #nav {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,20 +32,21 @@
         background-color: #154734;
       }
       
-      .nav a {
+      #nav a {
         display: inline-block;
         padding: 10px;
         text-decoration: none;
         color: #FFB81C;
       }
       
-      .nav a:hover {
+      #nav a:hover {
         background-color: #154734;
         color: #fff;
+		cursor: pointer;
       }
       
       /* Sub-navigation styles */
-      .sub-nav {
+      #sub-nav {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,14 +55,14 @@
         background-color: #154734;
       }
       
-      .sub-nav a {
+      #sub-nav a {
         display: inline-block;
         padding: 10px;
         text-decoration: none;
         color: #FFB81C;
       }
       
-      .sub-nav a:hover {
+      #sub-nav a:hover {
         background-color: #154734;
         color: #fff;
       }
