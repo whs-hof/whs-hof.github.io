@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Nimbus Sans";
+  src: url("../fonts/nimbus.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nimbus Sans Bold";
+  src: url("../fonts/nimbusbold.woff2") format("woff2");
+}
+
+body {
+  font-family: "Nimbus Sans";
+}
