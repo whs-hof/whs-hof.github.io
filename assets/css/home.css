@@ -10,6 +10,7 @@
 
 #logo {
   width: 555px;
+  padding-bottom: 16px;
 }
 
 body {
@@ -25,4 +26,10 @@ body {
 
 a:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
+  font-size: 33px;
+  padding: 8px;
 }
