@@ -9,7 +9,11 @@ because the original website is bad
 - new homepage
 - finally updated to 2023 standards®
 
-### to-do:
+### rn todo:
+- [X] get homepage design up to par with slides
+- [ ] begin work on test class of page
+
+### general to-do:
 - [ ] Continue testing with iframes (Blackboard SUCKS)
 - [ ] Finalize designs
 - [ ] Finish the test pages (homepage and example class)
