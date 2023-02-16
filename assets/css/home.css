@@ -38,3 +38,25 @@ a {
   font-size: 33px;
   padding: 8px;
 }
+
+#nav-dec {
+  display: flex; 
+  flex-direction: row; 
+}
+
+#nav-year {
+  display: none;
+  flex-direction: row;
+}
+
+#back {
+  color: red;
+  font-size: 22px;
+  visibility: hidden;
+}
+
+#credits {
+  color: gray;
+  font-size: 10px;
+  padding-top: 32px;
+}
