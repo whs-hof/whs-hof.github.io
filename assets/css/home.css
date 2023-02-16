@@ -8,13 +8,18 @@
   src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
+}
+
 #logo {
   width: 555px;
   padding-bottom: 16px;
 }
 
 body {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue Light";
   display: flex;
   align-items: center;
   justify-content: center;
