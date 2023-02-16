@@ -11,6 +11,8 @@ because the original website is bad
 
 ### rn todo:
 - [X] get homepage design up to par with slides
+- [ ] begin work on seperate mobile style for homepage
+- [ ] fix blackboard test iframe
 - [ ] begin work on test class of page
 
 ### general to-do:
