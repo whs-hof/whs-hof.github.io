@@ -1,5 +1,6 @@
 years = document.getElementById('nav-year').children
 decades = ['196','197','198','199','200','201','202']
+ignore = ['1960','1961','1962','1963','1964']
 //below gets the current school year, offset by about 7 months to match up with the hall of fame
 currentyear = new Date(new Date().getFullYear(), new Date().getMonth() - 7).getFullYear().toString()
 function select(s) {
@@ -9,7 +10,7 @@ function select(s) {
 	// this loops for every year in the years array (variable "years")
 	for (let i = 0; i < years.length; i++) {
 		// checks if the current year being edited is the current year or a year preceding the current year, and if so proceeds to hide the element
-		if (decades[s] + i >= currentyear) {
+		if (decades[s] + i >= currentyear || ignore.includes(decades[s] + i)) {
 			years[i].innerHTML = '';
 			years[i].style.display = 'none';
 		}
