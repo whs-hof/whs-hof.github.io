@@ -1,0 +1,112 @@
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #A2AAAD;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logo styles */
+.logo {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  background-image: url(https://github.com/frosDfurret/whs-hof/blob/production/assets/img/logo_horizontal.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  background-color: #154734;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #FFB81C;
+}
+
+.nav a:hover {
+  background-color: #154734;
+  color: #fff;
+}
+
+/* Sub-navigation styles */
+.sub-nav {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  background-color: #154734;
+}
+
+.sub-nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #FFB81C;
+}
+
+.sub-nav a:hover {
+  background-color: #154734;
+  color: #fff;
+}
+
+/* Main content styles */
+.content {
+  padding: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* Logo styles */
+  .logo {
+    max-width: 150px;
+  }
+
+  /* Navigation styles */
+  .nav {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Sub-navigation styles */
+  .sub-nav {
+    display: none;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .sub-nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Main content styles */
+  .content {
+    padding: 10px;
+  }
+}
