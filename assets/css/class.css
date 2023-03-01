@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "Helvetica Neue";
+}
+
+#classOf {
+  font-size: 33px;
+}
+
+#year {
+  font-family: "Helvetica Neue Bold";
+}
+
+.horn {
+  width: 55px;
+  padding: 10px;
+}
+
+#header {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  height: 77px;
+}
