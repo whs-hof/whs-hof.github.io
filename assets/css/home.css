@@ -13,6 +13,11 @@
   src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+}
+
 #logo {
   width: 444px;
   padding-bottom: 12px;

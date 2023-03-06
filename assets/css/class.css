@@ -13,13 +13,16 @@
   src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+}
+
 body {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  text-align: center;
   flex-direction: column;
+  align-items: center;
+  height: 100vh;
   margin: 0 auto;
   margin-top: 50px;
   font-family: "Helvetica Neue";
@@ -43,4 +46,5 @@ body {
   flex-direction: row; 
   align-items: center;
   height: 77px;
+  margin: 0 auto;
 }
