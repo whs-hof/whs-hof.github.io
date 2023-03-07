@@ -42,9 +42,47 @@ body {
 }
 
 #header {
-  display: flex; 
-  flex-direction: row; 
+  display: flex;
+  flex-direction: row;
   align-items: center;
   height: 77px;
   margin: 0 auto;
+}
+
+.award-box {
+  width: 399px;
+  height: 150px;
+  background-size: cover;
+  padding: 0px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  font-family: "Helvetica Neue Condensed";
+  padding-left: 20px;
+  font-size: 32px;
+}
+
+.names {
+  height: 50%;
+  background-color: rgba(0,0,0,0.3);
+  font-family: "Helvetica Neue";
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 21px;
+}
+
+.valedictorian-box {
+  background-image: url("../img/valedictorian.png");
+}
+
+.valedictorian-title {
+  background: rgb(255,229,153);
+  background: linear-gradient(110deg, rgba(255,229,153,1) 21%, rgba(0,0,0,0) 100%);
 }
