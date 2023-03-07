@@ -49,11 +49,21 @@ body {
   margin: 0 auto;
 }
 
+#awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .award-box {
   width: 399px;
   height: 150px;
   background-size: cover;
-  padding: 0px;
+  box-sizing: border-box;
+  background-clip: content-box;
+  padding: 5px;
 }
 
 .title {
