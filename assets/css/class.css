@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Helvetica Neue Condensed";
-  src: url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+  src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2");
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 #classOf {
-  font-size: 33px;
+  font-size: 42px;
 }
 
 #year {
@@ -37,8 +37,8 @@ body {
 }
 
 .horn {
-  width: 55px;
-  padding: 10px;
+  width: 66px;
+  padding: 12px;
 }
 
 #header {
