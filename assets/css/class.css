@@ -18,6 +18,10 @@
   src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2");
 }
 
+html {
+    zoom: 50%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -29,7 +33,7 @@ body {
 }
 
 #classOf {
-  font-size: 42px;
+  font-size: 66px;
 }
 
 #year {
@@ -37,8 +41,8 @@ body {
 }
 
 .horn {
-  width: 66px;
-  padding: 12px;
+  width: 99px;
+  padding: 20px;
 }
 
 #header {
@@ -47,6 +51,7 @@ body {
   align-items: center;
   height: 77px;
   margin: 0 auto;
+  padding: 32px;
 }
 
 #awards {
@@ -55,6 +60,8 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   justify-content: center;
+  max-width: 818px;
+  zoom: 150%;
 }
 
 .award-box {
@@ -69,30 +76,48 @@ body {
 .title {
   display: flex;
   align-items: center;
-  height: 50%;
+  height: 42%;
   font-family: "Helvetica Neue Condensed";
   padding-left: 20px;
   font-size: 32px;
 }
 
 .names {
-  height: 50%;
-  background-color: rgba(0,0,0,0.3);
-  font-family: "Helvetica Neue";
-  color: white;
+    height: 58%;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "Helvetica Neue";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.names > div {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  font-size: 21px;
 }
 
-.valedictorian-box {
+.names > :first-child:nth-last-child(2),
+.names > :first-child:nth-last-child(2) ~ * {
+  font-size: 22px;
+}
+
+.names > :first-child:nth-last-child(n+3),
+.names > :first-child:nth-last-child(n+3) ~ * {
+  font-size: 18px;
+}
+
+
+.valedictorian {
   background-image: url("../img/valedictorian.png");
 }
 
-.valedictorian-title {
-  background: rgb(255,229,153);
-  background: linear-gradient(110deg, rgba(255,229,153,1) 21%, rgba(0,0,0,0) 100%);
+.valedictorian > :first-child {
+    background: rgb(255,229,153);
+    background: linear-gradient(110deg, rgba(255,229,153,1) 21%, rgba(0,0,0,0) 100%);
 }
