@@ -1,123 +1,214 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../fonts/HelveticaNeue.woff2") format("woff2");
+     font-family: "Helvetica Neue";
+     src: url("../fonts/HelveticaNeue.woff2") format("woff2");
 }
-
-@font-face {
-  font-family: "Helvetica Neue Bold";
-  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2");
+ @font-face {
+     font-family: "Helvetica Neue Bold";
+     src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2");
 }
-
-@font-face {
-  font-family: "Helvetica Neue Light";
-  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
+ @font-face {
+     font-family: "Helvetica Neue Light";
+     src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
 }
-
-@font-face {
-  font-family: "Helvetica Neue Condensed";
-  src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2");
+ @font-face {
+     font-family: "Helvetica Neue Condensed";
+     src: url("../fonts/HelveticaNeue-CondensedBold.woff2") format("woff2");
 }
-
-html {
-    zoom: 50%;
+ html {
+     transform: scale(85%);
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  margin: 0 auto;
-  margin-top: 50px;
-  font-family: "Helvetica Neue";
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     margin: 0 auto;
+     font-family: "Helvetica Neue";
 }
-
-#classOf {
-  font-size: 66px;
+ #classOf {
+     font-size: 66px;
 }
-
-#year {
-  font-family: "Helvetica Neue Bold";
+ #year {
+     font-family: "Helvetica Neue Bold";
 }
-
-.horn {
-  width: 99px;
-  padding: 20px;
+ .horn {
+     width: 99px;
+     padding: 20px;
 }
-
-#header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 77px;
-  margin: 0 auto;
-  padding: 32px;
+ #header {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 77px;
+     margin: 0 auto;
+     padding: 32px;
 }
-
-#awards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  justify-content: center;
-  max-width: 818px;
-  zoom: 150%;
+ #awards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: flex-start;
+     justify-content: center;
+     max-width: 818px;
 }
-
-.award-box {
-  width: 399px;
-  height: 150px;
-  background-size: cover;
-  box-sizing: border-box;
-  background-clip: content-box;
-  padding: 5px;
+ .award-box {
+     width: 399px;
+     height: 150px;
+     background-size: cover;
+     box-sizing: border-box;
+     background-clip: content-box;
+     padding: 5px;
 }
-
-.title {
-  display: flex;
-  align-items: center;
-  height: 42%;
-  font-family: "Helvetica Neue Condensed";
-  padding-left: 20px;
-  font-size: 32px;
+ .title {
+     display: flex;
+     align-items: center;
+     height: 42%;
+     font-family: "Helvetica Neue Condensed";
+     padding-left: 20px;
+     font-size: 32px;
+     margin: 0;
 }
-
-.names {
-    height: 58%;
-    background-color: rgba(0,0,0,0.3);
-    font-family: "Helvetica Neue";
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
+ .names {
+     height: 58%;
+     background-color: rgba(0,0,0,0.6);
+     font-family: "Helvetica Neue";
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     flex-wrap: wrap;
+     backdrop-filter: blur(1px);
+     margin: 0;
 }
-
-.names > div {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ .names > div {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 25px;
 }
-
-.names > :first-child:nth-last-child(2),
-.names > :first-child:nth-last-child(2) ~ * {
-  font-size: 22px;
+ .names > :first-child:nth-last-child(2), .names > :first-child:nth-last-child(2) ~ * {
+     font-size: 22px;
+     width: 100%;
 }
-
-.names > :first-child:nth-last-child(n+3),
-.names > :first-child:nth-last-child(n+3) ~ * {
-  font-size: 18px;
+ .names > :first-child:nth-last-child(n+3), .names > :first-child:nth-last-child(n+3) ~ * {
+     font-size: 18px;
+     width: 50%;
 }
-
-
-.valedictorian {
-  background-image: url("../img/valedictorian.png");
+ .bodypres > :first-child {
+     background: linear-gradient(110deg, rgba(122, 186, 45,0.9) 64%, rgba(255,255,255,0.1) 100%);
 }
-
-.valedictorian > :first-child {
-    background: rgb(255,229,153);
-    background: linear-gradient(110deg, rgba(255,229,153,1) 21%, rgba(0,0,0,0) 100%);
+ .bodypres {
+     background-image: url("../img/bodypres.png");
 }
+ .seniorpres > :first-child {
+     background: linear-gradient(110deg, rgba(114, 27, 227,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .seniorpres {
+     background-image: url("../img/seniorpres.png");
+}
+ .outstanding > :first-child {
+     background: rgb(10,2,169);
+     background: linear-gradient(110deg, rgba(44, 130, 184,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .outstanding {
+     background-image: url("../img/outstanding.png");
+}
+ .valedictorian > :first-child {
+     background: linear-gradient(110deg, rgba(255,229,153,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .valedictorian {
+     background-image: url("../img/valedictorian.png");
+}
+ .salutatorian > :first-child {
+     background: linear-gradient(110deg, rgba(125, 119, 242,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .salutatorian {
+     background-image: url("../img/salutatorian.png");
+}
+ .english > :first-child {
+     background: linear-gradient(110deg, rgba(49,136,101,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .english {
+     background-image: url("../img/english.png");
+}
+ .history > :first-child {
+     background: linear-gradient(110deg, rgba(204,110,81,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .history {
+     background-image: url("../img/history.png");
+}
+ .math > :first-child {
+     background: linear-gradient(110deg, rgba(92,112,171,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .math {
+     background-image: url("../img/math.png");
+}
+ .science > :first-child {
+     background: linear-gradient(110deg, rgba(109,172,82,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .science {
+     background-image: url("../img/science.png");
+}
+ .art > :first-child {
+     background: linear-gradient(110deg, rgba(210,13,33,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .art {
+     background-image: url("../img/art.png");
+}
+ .drama > :first-child {
+     background: linear-gradient(110deg, rgba(63,204,179,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .drama {
+     background-image: url("../img/drama.png");
+}
+ .music > :first-child {
+     background: linear-gradient(110deg, rgba(197,69,73,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .music {
+     background-image: url("../img/music.png");
+}
+ .worldlang > :first-child {
+     background: linear-gradient(110deg, rgba(189,0,212,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .worldlang {
+     background-image: url("../img/worldlang.png");
+}
+ .boyspe > :first-child {
+     background: linear-gradient(110deg, rgba(186,38,115,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .boyspe {
+     background-image: url("../img/boyspe.png");
+}
+ .girlspe > :first-child {
+     background: linear-gradient(110deg, rgba(112,138,217,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .girlspe {
+     background-image: url("../img/girlspe.png");
+}
+ .business > :first-child {
+     background: linear-gradient(110deg, rgba(167,206,0,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .business {
+     background-image: url("../img/business.png");
+}
+ .industrial > :first-child {
+     background: linear-gradient(110deg, rgba(71, 112, 245,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .industrial {
+     background-image: url("../img/industrial.png");
+}
+ .economics > :first-child {
+     background: linear-gradient(110deg, rgba(241,241,101,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .economics {
+     background-image: url("../img/economics.png");
+}
+ .service > :first-child {
+     background: linear-gradient(110deg, rgba(119,160,85,0.9) 64%, rgba(255,255,255,0.1) 100%);
+}
+ .service {
+     background-image: url("../img/service.png");
+}
+ 
