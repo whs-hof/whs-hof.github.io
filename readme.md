@@ -12,15 +12,16 @@ because the original website is bad
 ### rn todo:
 - [X] get homepage design up to par with slides
 - [ ] begin work on seperate mobile style for homepage
-- [ ] fix blackboard test iframe
-- [ ] begin work on test class of page
+- [X] fix blackboard test iframe
+- [X] begin work on test class of page
+- [ ] Get "backend" for AIO page done
 
 ### general to-do:
-- [ ] Continue testing with iframes (Blackboard SUCKS)
-- [ ] Finalize designs
-- [ ] Finish the test pages (homepage and example class)
-- [ ] Create new pages for each class
+- [X] Continue testing with iframes (Blackboard SUCKS)
+- [X] Finalize designs
+- [X] Finish the test pages (homepage and example class)
+- [ ] Create AIO page
 - [ ] Remove the old pages
-- [ ] Add in new pages
+- [ ] Add in new page
 - [ ] Yay done!!!!
 - [ ] Move repo to new GitHub account
