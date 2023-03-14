@@ -25,6 +25,16 @@
      margin: 0 auto;
      font-family: "Helvetica Neue";
 }
+ #cover {
+     background-color: white;
+     position: fixed;
+     top: 0;
+     left: 0;
+     margin: 0;
+     width: 100vw;
+     height: 100vh;
+     z-index: 9001;
+}
  #classOf {
      font-size: 66px;
 }
@@ -211,4 +221,3 @@
  .service {
      background-image: url("../img/service.png");
 }
- 
