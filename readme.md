@@ -14,13 +14,14 @@ because the original website is bad
 - [ ] begin work on seperate mobile style for homepage
 - [X] fix blackboard test iframe
 - [X] begin work on test class of page
-- [ ] Get "backend" for AIO page done
+- [X] Get "backend" for AIO page done
+- [ ] start work on JSONs for AIO page 
 
 ### general to-do:
 - [X] Continue testing with iframes (Blackboard SUCKS)
 - [X] Finalize designs
 - [X] Finish the test pages (homepage and example class)
-- [ ] Create AIO page
+- [ ] start work on JSONs for AIO page
 - [ ] Remove the old pages
 - [ ] Add in new page
 - [ ] Yay done!!!!
