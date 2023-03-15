@@ -40,7 +40,7 @@ if (year == null) {
 //checks if json of selected year is present
 
 try {
-  data = JSON.parse(httpGet('../assets/class/' + year + '.json'));
+  data = JSON.parse(httpGet(window.location.href.replace(window.location.pathname,"") + '/assets/class/' + year + '.json'));
 } catch {
   doError('Could not find JSON of chosen year (which is ' + year + ').\nEnsure the file is in the "/assets/class/" directory, and named "' + year + '.json".')
 }
