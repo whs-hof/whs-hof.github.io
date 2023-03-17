@@ -18,6 +18,7 @@ function select(s) {
 		else {
 			years[i].innerHTML = decades[s] + i;
 			years[i].style.display = 'block';
+			years[i].href = window.location.href.split('/').slice(0, -1).join('/') + '/class.html?year=' + decades[s] + i;
 		}
 		// i have a love-hate relationship with javascript
 	}
