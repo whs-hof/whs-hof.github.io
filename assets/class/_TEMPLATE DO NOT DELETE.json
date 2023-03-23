@@ -1,0 +1,48 @@
+// Welcome to the template for the Class JSON! Don't worry, it's really easy to start.
+// Below are the codenames for all of the awards. For example, "bodypres" is the codename for "Student Body President."
+// Let's say you wanted to add the name "John Doe" to "bodypres". You would do so like this:
+// "bodypres": [
+// "John Doe"
+// ],
+// Create a line break 
+
+{
+    "bodypres": [
+    ],
+    "seniorpres": [
+    ],
+    "outstanding": [
+    ],
+    "valedictorian": [
+    ],
+    "salutatorian": [
+    ],
+    "english": [
+    ],
+    "history": [
+    ],
+    "math": [
+    ],
+    "science": [
+    ],
+    "art": [
+    ],
+    "drama": [
+    ],
+    "music": [
+    ],
+    "worldlang": [
+    ],
+    "boyspe": [
+    ],
+    "girlspe": [
+    ],
+    "business": [
+    ],
+    "industrial": [
+    ],
+    "economics": [
+    ],
+    "service": [
+    ]
+}
