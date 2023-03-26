@@ -34,6 +34,59 @@ body {
   margin: 0 auto;
 }
 
+/* Mobile Styles */
+}
+
+#logo {
+  width: 444px;
+  padding-bottom: 12px;
+}
+
+body {
+  font-family: "Helvetica Neue Light";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
+  font-size: 25px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+#nav-dec {
+  display: flex; 
+  flex-direction: row; 
+}
+
+#nav-year {
+  display: none;
+  flex-direction: row;
+}
+
+#back {
+  color: red;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+#credits {
+  color: gray;
+  font-size: 13px;
+  padding-top: 32px;
+}
+
 a:hover {
   cursor: pointer;
   text-decoration: underline;
