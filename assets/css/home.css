@@ -67,12 +67,12 @@ a {
 
 #nav-dec {
   display: flex; 
-  flex-direction: row; 
+  flex-direction: column; 
 }
 
 #nav-year {
   display: none;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #back {
