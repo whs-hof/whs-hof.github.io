@@ -7,9 +7,9 @@
 //initialize variables
 
 awards = ['bodypres', 'seniorpres', 'outstanding', 'valedictorian', 'salutatorian', 'english', 'history', 'math', 'science', 'art', 'drama', 'music', 'worldlang', 'boyspe', 'girlspe', 'business', 'industrial', 'economics', 'service']
+awardelem = []
 for (let i = 0; i < awards.length; i++) {
-  // possibly the worst way to do this
-  eval('elem' + awards[i] + ' = document.getElementsByClassName("' + awards[i] + '")[0];')
+  awardelem.push(document.getElementsByClassName(awards[i])[0])
 }
 
 function httpGet(theUrl) {
@@ -56,6 +56,7 @@ for (let i = 0; i < awards.length; i++) {
   for (let j = 0; j < data[awards[i]].length; j++) {
     const div = document.createElement("div");
     div.innerHTML = data[awards[i]][j]
-    eval('elem' + awards[i] + '.getElementsByClassName("names")[0].appendChild(div);');
+    awardelem[i].getElementsByClassName("names")[0].appendChild(div);
+    //eval('elem' + awards[i] + '.getElementsByClassName("names")[0].appendChild(div);');
   }
 }
