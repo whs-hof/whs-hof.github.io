@@ -1,0 +1,76 @@
+{
+    "bodypres": [
+        "John Shreve"
+    ],
+    "seniorpres": [
+        "Regina DeVera"
+    ],
+    "outstanding": [
+        "John Shreve",
+        "Kevin Maeda",
+        "Val"
+    ],
+    "valedictorian": [
+        "Kenny Chow",
+        "Dylan Woon"
+    ],
+    "salutatorian": [
+        "John Chen",
+        "Albert Mack",
+        "Kevin Maeda"
+    ],
+    "english": [
+        "Kenny Chow",
+        "Dylan Woon"
+    ],
+    "history": [
+        "Kenny Chow",
+        "Dylan Woon",
+        "Kevin Maeda"
+    ],
+    "math": [
+        "John Chen",
+        "Francis Wong"
+    ],
+    "science": [
+        "John Chen",
+        "Benson Fong",
+        "Dylan Woon"
+    ],
+    "art": [
+        "T.J. Frias"
+    ],
+    "drama": [
+        "Kathy Zarur",
+        "Cristina Ablaza"
+    ],
+    "music": [
+        "Felmo Navor",
+        "Cristina Ablaza"
+    ],
+    "worldlang": [
+        "Lisa Low",
+        "Wendy Tam",
+        "Marjomi Blanding"
+    ],
+    "boyspe": [
+        "Armando Saria"
+    ],
+    "girlspe": [
+        "Kelly Egan",
+        "Alexis Chan"
+    ],
+    "business": [
+        "Irene Lai"
+    ],
+    "industrial": [
+        "Orlando Espinoza"
+    ],
+    "economics": [
+        "Nicole Harris"
+    ],
+    "service": [
+        "Novia Cheng",
+        "Tautua Taura"
+    ]
+}

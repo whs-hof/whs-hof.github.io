@@ -1,0 +1,67 @@
+{
+    "bodypres": [
+        "None"
+    ],
+    "seniorpres": [
+        "John Cariaso"
+    ],
+    "outstanding": [
+        "Jocelyn Wong",
+        "Val"
+    ],
+    "valedictorian": [
+        "Irina Wong",
+        "Jocelyn Wong"
+    ],
+    "salutatorian": [
+        "Eva Lima"
+    ],
+    "english": [
+        "Irina Wong"
+    ],
+    "history": [
+        "Wai Kei So"
+    ],
+    "math": [
+        "Wai Kei So",
+        "Jocelyn Wong"
+    ],
+    "science": [
+        "Wai Kei So",
+        "Jocelyn Wong",
+        "Raymond Wu"
+    ],
+    "art": [
+        "Jo Anne Polo"
+    ],
+    "drama": [
+        "Jessica Gold",
+        "Kalliope Vlahos"
+    ],
+    "music": [
+        "Jessica Gold",
+        "Jocelyn Wong"
+    ],
+    "worldlang": [
+        "Diane Ponce"
+    ],
+    "boyspe": [
+        "Christopher Hewett"
+    ],
+    "girlspe": [
+        "Lesley Evangelista"
+    ],
+    "business": [
+        "David Vallejo"
+    ],
+    "industrial": [
+        "Julian Salvador"
+    ],
+    "economics": [
+        "Bernadette Bangalan"
+    ],
+    "service": [
+        "Diana Fong",
+        "Jennifer Ross"
+    ]
+}
