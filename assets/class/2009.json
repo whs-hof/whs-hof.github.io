@@ -1,0 +1,81 @@
+{
+    "bodypres": [
+        "Alice Leung"
+    ],
+    "seniorpres": [
+        "Catheryn Hugo"
+    ],
+    "outstanding": [
+        "Alaric Chinn",
+        "Alice Leung",
+        "Val",
+        "Jeremias David",
+        "Anita Poon",
+        "Kimberly Wong",
+        "Mengge Ji",
+        "Lily Wu",
+        "Wendy Yeung"
+    ],
+    "valedictorian": [
+        "Jeremias David",
+        "Anita Poon",
+        "Kimberly Wong"
+    ],
+    "salutatorian": [
+        "Alaric Chinn",
+        "Mengge Ji",
+        "Lily Wu",
+        "Wendy Yeung"
+    ],
+    "english": [
+        "Anita Poon",
+        "Kimberly Wong"
+    ],
+    "history": [
+        "Alice Leung",
+        "Alaric Chinn"
+    ],
+    "math": [
+        "Mengge Ji",
+        "Swe Tun"
+    ],
+    "science": [
+        "Alice Leung",
+        "Swe Tun"
+    ],
+    "art": [
+        "Amanda Ortiz"
+    ],
+    "drama": [
+        "Camille Michelle Edralin",
+        "Jan Jerome Ochoa"
+    ],
+    "music": [
+        "Alaric Chinn",
+        "Tyler Wilson"
+    ],
+    "worldlang": [
+        "Anita Poon",
+        "Katrina Morales"
+    ],
+    "boyspe": [
+        "Kenny Ly"
+    ],
+    "girlspe": [
+        "Samantha Rafael"
+    ],
+    "business": [
+        "Jeremias David",
+        "Anita Poon"
+    ],
+    "industrial": [
+        "Austin Natan"
+    ],
+    "economics": [
+        "Carrie Wu"
+    ],
+    "service": [
+        "Jan Jerome Ochoa",
+        "Anita Poon"
+    ]
+}
