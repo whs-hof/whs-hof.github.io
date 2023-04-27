@@ -28,6 +28,7 @@ function doError(error) {
 
 year = new URLSearchParams(window.location.search).get('year');
 elemyear = document.getElementById('year');
+document.title = `Class of ${year} - WHS Hall of Fame`
 
 //checks if year is missing, and if year is a four-digit number (it should be)
 
